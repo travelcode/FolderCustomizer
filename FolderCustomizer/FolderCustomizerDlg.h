@@ -30,7 +30,8 @@ protected:
 	virtual BOOL OnInitDialog();
 	afx_msg void OnPaint();
 	afx_msg HCURSOR OnQueryDragIcon();
-	DECLARE_MESSAGE_MAP()
+	DECLARE_MESSAGE_MAP();
+	CString GetLastErrorAsString();
 public:
 	CMFCShellTreeCtrlEx m_treeCtrl;
 	CMFCPropertyGridCtrl m_wndPropList;

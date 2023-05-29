@@ -11,4 +11,5 @@ CMFCPropertyGridCtrlEx::CMFCPropertyGridCtrlEx()
 
 CMFCPropertyGridCtrlEx::~CMFCPropertyGridCtrlEx()
 {
+
 }
